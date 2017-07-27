@@ -37,5 +37,17 @@ public class Driver {
         for (int i = 0; i < a.length; ++i) {
             a[i] = new ArrayTest(Integer.toString(i));
         }
+        System.out.println("Practice No.19 : ");
+        VarArgs.print("Hello", "world!");
+        String str2[] = new String[]{"Hello", "world!"};
+        VarArgs.print(str2);
+        System.out.println("Practice No.21 : ");
+        for (Cash cash : Cash.values()) {
+            System.out.println(cash + " : " + cash.ordinal());
+        }
+        System.out.println("Practice No.22 : ");
+        TestEnum testEnum = new TestEnum(Cash.MAOYEYE);
+        testEnum.print();
+
     }
 }
