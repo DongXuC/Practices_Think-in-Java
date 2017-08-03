@@ -7,12 +7,13 @@ public class Inherit extends Detergent {
         System.out.println("Inherit : ");
         super.scrub();
     }
-    public String toString(){
-        return "str"+str;
+
+    public String toString() {
+        return "str" + str;
     }
 
     public static void main(String[] args) {
-        Inherit inherit=new Inherit();
+        Inherit inherit = new Inherit();
         inherit.scrub();
         System.out.println(inherit);
     }
