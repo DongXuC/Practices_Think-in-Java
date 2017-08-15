@@ -6,5 +6,7 @@ public class Test {
         TestImplement testImplement=new TestImplement();    /*接口与类相同，需要被显式的声明为public
                                                             但接口内的方法默认为public*/
         testImplement.method3();
+        String s="Hello";
+        System.out.println(s.charAt(1));
     }
 }
