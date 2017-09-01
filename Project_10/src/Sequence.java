@@ -60,6 +60,11 @@ public class Sequence {
                 ++i;
             }
         }
+
+        public Sequence generator(int size){
+            return new Sequence(size);
+        }
+
     }
 
     public Selector selector() {
