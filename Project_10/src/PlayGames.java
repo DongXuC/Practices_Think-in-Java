@@ -2,7 +2,10 @@ import java.util.Random;
 
 /**
  * Created by XuChen on 2017/9/5.
- * Description:
+ * Description:注意这里的工厂模式是如何使用接口的
+ * 工厂模式：首先抽象工厂接口，其中包含了获取产品的方法
+ * 在产品中创建匿名内部类，（注意此处创建的方式，静态创建一个工厂接口对象）
+ * main中若要获取产品，则调用相应产品内部类对象的get方法
  */
 
 interface Games{
