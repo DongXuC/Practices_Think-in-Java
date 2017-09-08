@@ -1,6 +1,6 @@
 /**
  * Created by XuChen on 2017/9/7.
- * Description:  这里还存在问题
+ * Description:  这里还存在问题,书上的addList函数传递的并非数组，那么run函数如何能读取到eventList中的对象？
  */
 public class GreenHouseController {
     public static void main(String[] args) {
