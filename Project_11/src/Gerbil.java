@@ -6,7 +6,7 @@ import java.util.ArrayList;
  *另：注意如何对某个类的创建次数进行计数
  */
 public class Gerbil {
-    private static int id = 0;
+    static int id = 0;
     private final int gerbilNumber;
 
     Gerbil() {
