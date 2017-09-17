@@ -19,11 +19,14 @@ public class MultiError {
     public static void main(String[] args) {
         try{
             MultiError test=new MultiError();
-            test.getErrors();
+//            test.getErrors();
+            throw new NullPointerException();
         }catch (Error2 e){          /*此时接不住Error2异常，因此如果后面没有catch，程序会报错*/
             System.out.println(e);
         }catch (Exception e){
             System.out.println(e);
+        }finally {
+            System.out.println("This finally");
         }
 //        catch (Error1 e){           这里由于Error1继承于Exception，在重复catch会报错
 //        }
