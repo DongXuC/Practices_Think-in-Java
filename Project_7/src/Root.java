@@ -1,4 +1,4 @@
-import org.omg.CORBA.PUBLIC_MEMBER;
+//import org.omg.CORBA.PUBLIC_MEMBER;
 
 /**
  * Created by XuChen on 2017/7/29.
