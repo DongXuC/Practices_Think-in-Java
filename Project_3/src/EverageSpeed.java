@@ -1,7 +1,7 @@
 /**
  * Created by XuChen on 2017/7/18.
  */
-import org.omg.PortableInterceptor.DISCARDING;
+//import org.omg.PortableInterceptor.DISCARDING;
 
 import java.util.*;
 public class EverageSpeed {
